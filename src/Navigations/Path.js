@@ -11,7 +11,7 @@ const Stack = createStackNavigator();
 const Path = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen
+      {/* <Stack.Screen
         name="Home"
         component={HomeScreen}
         options={{
@@ -34,7 +34,7 @@ const Path = () => {
           headerTitle: 'Product Details',
           headerTitleAlign: 'center',
         }}
-      />
+      /> */}
       <Stack.Screen
         name="Cart"
         component={CartScreen}
